@@ -1,0 +1,1 @@
+require('./example.schema.yml');
