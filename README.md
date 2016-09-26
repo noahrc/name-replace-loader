@@ -12,7 +12,7 @@ With this loader in your webpack config:
 loaders: [
   {
     test: /\.yml$/,
-    loader: 'file?name=[name].[ext]!__this?find=foo&replace=baz'
+    loader: 'file?name=[name].[ext]!name-replace?find=foo&replace=baz'
   }
 ]
 ```
@@ -24,7 +24,7 @@ A file would be output with the name `example.baz.yml`.
 You can replace a match with an empty string like so:
 
 ```
-    loader: 'file?name=[name].[ext]!__this?find=foo&replace='
+    loader: 'file?name=[name].[ext]!name-replace?find=foo&replace='
 ```
 
 ## Regex example
@@ -32,7 +32,7 @@ You can replace a match with an empty string like so:
 To use a Regular Expression for the find pattern, pass a flags query parameter. It can be an empty string if you just want the default flag.
 
 ```
-loader: 'file?name=[name].[ext]!__this?find=\.[s|S]chema&replace=.bar&flags='
+loader: 'file?name=[name].[ext]!name-replace?find=\.[s|S]chema&replace=.bar&flags='
 ```
 
 ## Contributing
