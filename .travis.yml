@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '6'
+- '6.1'
+- '5.11'
+deploy:
+  provider: npm
+  email: noahrc@gmail.com
+  api_key:
+    secure: DOMiYu5pLBCvxmxgww712Puqj2SjMuXCE+3XMjk2Glb66BHZ+8qir8aiKjnE9jE9M90RlnWYNaA7Cnm/d1NMoClNl7PypPxLF/Ldj3x6QS9KJMRjh1mONtGPaMsjAiksgFUpKfDvAbWWcbV6P+/e7HkLMXBSrV+qsoUEXGdUWSFFfiqt7MuPBkgoer5vFIAGVEqJ55jrDAQNU1+PJg9bK/yKZBkdiNXrcyQHxB1OtTUg8awP5RvcCp1hm0nM49O0wvo+OvCHLALtVOBSIoCZqUQFEbPjZVjUQbtGI3HsxDKFkA5xqMyJIRhmPzb/2p3+LdI+/oXLDLK38ha9AadmtmjmXn1lDXXAX7TvOUPxEmyT1Iykr1SXt047Td/QeNA0FxmwUCyun3Zk5tGgYC3n8DtbqDQfY461ZnQ2OkDwG8vntSOaYPdbNX4qa30m8lSFk91SyOOVn8sf3YVqZao7MB+cufJyep8CV4Me8kjL9KHkUL7u09Fl3gJ566wKMERRDlUvL+lR43r3pTJ+/+S1lFb+ixAAZHCdwbfnAe2UeH3qw/GwUu3AyYkLFViN6gTvSrcnwyLGGEyWS9AmXQwX5D8QcZkmv7NI90uURtzVEmOsJDN6Cu4MZPYSSWv3RoQORHvYVJO28rWN7pPAYPl5SO5/NGgtkDZiBUOV2TSE3Z4=
+  on:
+    tags: true
+    repo: noahrc/name-replace-loader
