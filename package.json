@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "commit": "npm test && git cz -- --no-verify",
+    "release": "standard-version && git push && git push --tags",
     "test": "mocha"
   },
   "repository": {
