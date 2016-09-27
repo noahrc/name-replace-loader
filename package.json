@@ -1,6 +1,6 @@
 {
   "name": "name-replace-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A loader for webpack that replaces names using strings or regular expressions",
   "main": "index.js",
   "scripts": {
